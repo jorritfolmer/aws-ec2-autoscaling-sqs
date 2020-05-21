@@ -1,0 +1,7 @@
+.idea
+.vagrant
+.vscode
+.mypy_cache
+venv/
+__pycache__
+.coverage

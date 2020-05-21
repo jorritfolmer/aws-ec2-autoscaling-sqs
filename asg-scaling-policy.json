@@ -1,0 +1,15 @@
+{
+   "TargetValue":5,
+   "CustomizedMetricSpecification":{
+      "MetricName":"SQSBacklogPerInstance",
+      "Namespace":"YourCloudWatchNameSpace",
+      "Dimensions":[
+         {
+            "Name":"Queue Metrics",
+            "Value":"https://sqs.eu-west-1.amazonaws.com/123456789/your-queue-name"
+         }
+      ],
+      "Statistic":"Average",
+      "Unit":"Count"
+   }
+}
